@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100vw;
+  height: 100vh;
+}
+header {
+  background: #ffba14;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  height: 10vh;
+  margin-bottom: 36px;
+}
+iframe {
+  width: 500px;
+  height: 600px;
+}
+section {
+  display: flex;
+
+  justify-content: space-evenly;
+  align-items: center;
+}
+section div h2 {
+  text-align: center;
+}
